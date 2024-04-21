@@ -1,0 +1,191 @@
+<title xmlns="http://www.w3.org/1999/html">Home | Thermo - X</title>
+
+<html lang="en">
+<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        opacity: 0;
+        animation: fadeIn 0.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+</style>
+    
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial";
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+    }
+    #particles-js {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0f0f0f;
+        padding: 10px 20px;
+        position: relative;
+        z-index: 1;
+        opacity: 0.85;
+    }
+    .long-button {
+        padding: 10px 20px;
+        background-color: #1414b8;
+        color: #fff;
+        border: 2px solid #fff;
+        text-decoration: none;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-left: 10px;
+        transition: transform 0.3s, filter 0.3s;
+    }
+
+    
+    .button:hover {
+    transform: scale(1.1);
+    filter: invert(1);
+}
+    img.nav-img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    img.nav-img:hover {
+        transform: scale(1.2);
+    }
+    .glow {
+        font-size: 40px;
+        color: #480aa5;
+        animation: glow 1.5s infinite alternate;
+        text-shadow: 0 0 10px #240652;
+        font-weight: bold;
+    }
+    
+    
+
+    .container {
+        transition: box-shadow 0.5s;
+        padding: 10px;
+        margin: 25px auto;
+        position: relative;
+        width: 540px;
+        color: #480aa5;
+        border-radius: 15px;
+        background-color: black;
+    }
+
+    .container:hover {
+        box-shadow: 0 0 5px #480aa5;
+    }
+
+    .feat-button {
+        padding: 13px 23px;
+        background-color: #000;
+        color: #480aa5;
+        border: 2px solid #480aa5;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 13px;
+        margin-left: 10px;
+        transition: transform 0.3s, filter 0.3s;
+    }
+    
+    button {
+        padding: 13px 23px;
+        background-color: #000;
+        color: #480aa5;
+        border: 2px solid #480aa5;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 13px;
+        margin-left: 10px;
+        transition: transform 0.3s, filter 0.3s;
+    }
+    button:hover {
+    transform: scale(1.1);
+}
+</style>
+</head>
+<header>
+<div id="particles-js"></div>
+<nav>
+    <img class="nav-img" src="tabimage.png" alt="Image" onclick="window.location.href='/'" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+    <div>
+        <button onclick="window.location.href='features.html';">Features</button>
+        <button onclick="window.location.href='https://discord.gg/RF5DEtQx3D';">Discord</button>
+        <button onclick="window.location.href='credits.html';">Credits</button>
+    </div>
+</nav>
+<body>
+    <h1 class="glow">Thermo- X | Gorilla Tag 2024</h1>
+    <hr>
+
+
+
+   
+
+    <div class="container">
+        <h1>What is thermo-x?</h1>
+        <h2>Thermo-x is a gorilla tag menu that has been created by 4 developers (phaantom, azora, gold, and serenity</h2>
+        <img src="menuimage.png" alt="Image can not be seen on this browser">
+        <h3>How could i get this menu?</h3>
+        <h4>If there is a download available click the download button showing the version!</h4>
+        <button onclick="myFunction()">Download</button>
+    </div>
+
+    <script>
+        function myFunction() {
+            alert("Download not available currently | please look out for annoucements regrading it.");
+        }
+    </script>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 35 },
+                "color": { "value": "#5406c9" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.5 },
+                "size": { "value": 3 },
+                "line_linked": { "color": "#5406c9", "opacity": 0.4, "width": 1 },
+                "move": { "speed": 2, "direction": "top" }
+            },
+            "interactivity": {
+                "events": { "onhover": { "enable": true, "mode": "grab" } },
+                "modes": { "grab": { "distance": 140 } }
+            }
+        });
+    </script>
+</body>
+</header>
+</html>
+  
